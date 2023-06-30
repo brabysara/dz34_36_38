@@ -71,7 +71,7 @@ int addition = Addit(randome, sizeUser);
 
 Console.Write(" ] -> "+addition);
 
-//
+//функции
 
 int UsInPut(string infForUser, string error )
 {
@@ -152,7 +152,7 @@ for (int z = 0; z < numbers.Length; z++)
 
 Console.WriteLine($"всего {numbers.Length} чисел. Максимальное значение = {max}, минимальное значение = {min}");
 Console.WriteLine($"Разница между максимальным и минимальным значением = {max - min}");
-
+///функции
 void FillArrayRandomNumbers(double[] numbers)
 {
     for(int i = 0; i < numbers.Length; i++)
